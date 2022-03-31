@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: backstage123
   description: |
-    TESTING ::: Backstage123 is an open-source developer portal that puts the developer experience first.
+    TESTING Backstage code.
   labels:
     tier: test-T1
     taep: test-services.iro.prod-site-facing.iro-site-facing
