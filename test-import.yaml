@@ -22,4 +22,4 @@ spec:
   type: library
   owner: CNCF
   lifecycle: experimental
-  dependsOn: 
+  dependsOn: ['backstage123', 'NameChange']
