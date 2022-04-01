@@ -1,0 +1,26 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: TestImport
+  description: |
+    Testing import using catalog import feature by Backstage IO
+  labels:
+    tier: test-T3
+    taep: test-services.iro.prod-site-facing.iro-site-facing-3
+  links:
+    - title: Website
+      url: http://backstage.io
+    - title: Documentation
+      url: https://backstage.io/docs
+    - title: Storybook
+      url: https://backstage.io/storybook
+    - title: Discord Chat
+      url: https://discord.com/invite/EBHEGzX
+  annotations:
+    github.com/project-slug: backstage/backstage
+    backstage.io/techdocs-ref: dir:.
+    lighthouse.com/website-url: https://backstage.io
+spec:
+  type: library
+  owner: CNCF
+  lifecycle: experimental
