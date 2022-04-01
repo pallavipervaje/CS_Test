@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: TestImportChanged
+  name: TestImportChangedToNew
   labels:
     tier: test-T4
     taep: test-services.iro.prod-site-facing.iro-site-facing-4
@@ -22,3 +22,4 @@ spec:
   type: library
   owner: CNCF
   lifecycle: experimental
+  dependsOn: 
