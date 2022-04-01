@@ -1,12 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: TestImport
+  name: TestImportChanged
   description: |
     Testing import using catalog import feature by Backstage IO
   labels:
-    tier: test-T3
-    taep: test-services.iro.prod-site-facing.iro-site-facing-3
+    tier: test-T4
+    taep: test-services.iro.prod-site-facing.iro-site-facing-4
   links:
     - title: Website
       url: http://backstage.io
